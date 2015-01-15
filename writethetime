@@ -222,7 +222,8 @@ function normalSaat {
 		*)
 			dakika2="" ;;
 	esac
-	
+	#Saatin ekrana yazdirildigi kisim
+
 	saat="$(gunHesapla $saatg) ${saat} ${dakika1} ${dakika2} geçiyor."
 	echo "$saat"
 }
